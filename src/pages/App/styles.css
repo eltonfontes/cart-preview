@@ -1,0 +1,28 @@
+.container {
+    background-color: #eee;
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerLinkedin{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: #666;
+    text-shadow: #ccc;
+}
+
+.containerPrev {
+    flex: 5;
+    background-color: #eee;
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+}

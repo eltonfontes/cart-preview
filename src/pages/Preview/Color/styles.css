@@ -1,0 +1,45 @@
+.containerColor {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #666;    
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    border:1px solid #fff;
+    border-radius: 3px;
+
+    
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.innerContainer{
+    width:28px;
+    height: 28px;
+    border-radius:28px;
+    border:2px solid #fff
+}
+
+.containerColor:hover{
+    opacity: 0.5;
+}
+
+.active {
+    border: 1px solid #666;
+}
+
+.coloractive{
+    border: 1px solid #666;
+    border-color: #666 !important;
+}
+
+.color{
+    border-radius: 30px;    
+    padding: 1px;
+}

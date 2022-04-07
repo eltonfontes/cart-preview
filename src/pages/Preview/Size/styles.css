@@ -1,0 +1,22 @@
+.containerSize {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #666;    
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.containerSize:hover{
+    opacity: 0.5;
+}
+
+.active {
+    background-color: #666;
+    color: #fff;
+}
